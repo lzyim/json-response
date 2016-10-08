@@ -1,0 +1,24 @@
+{
+    "name": "soloslee/json-response",
+    "type": "library",
+    "description": "JSON-API response for Laravel",
+    "keywords": ["json"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "solo",
+            "email": "iamsoloa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "illuminate/support": "~5.0",
+        "illuminate/routing": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soloslee\\JsonResponse\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
