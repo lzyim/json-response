@@ -7,19 +7,19 @@ Installation
 Install using composer:
 
 ```bash
-composer require soloslee/jsonresponse
+composer require soloslee/json-response
 ```
 
 Laravel (optional)
 ------------------
 
-Add the service provider in `app/config/app.php`:
+Add the service provider in `config/app.php`:
 
 ```php
-'Soloslee\JsonResponse\JsonResponseServiceProvider',
+'Soloslee\JsonResponse\JsonResponseServiceProvider::class',
 ```
 
-And add the Agent alias to `app/config/app.php`:
+And add the JsonResponse alias to `config/app.php`:
 
 ```php
 'JsonResponse' => Soloslee\JsonResponse\Facades\JsonResponse::class,
